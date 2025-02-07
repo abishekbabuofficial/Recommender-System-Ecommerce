@@ -50,6 +50,7 @@ The Streamlit-based web application allows users to:
 1. Download the Application folder in the repository
 2. Install the requirements
 3. In CLI, Give the command **streamlit run app.py**
+
 Note: Change the path of dataset according to your system
 
 ## Requirements
