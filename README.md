@@ -18,13 +18,11 @@ This method recommends products similar to a given item based on text similarity
 3. Computes cosine similarity between items. 
 Cosine similarity between two vectors **A** and **B** is calculated as:
 
-$$
-\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}
-$$
+**cosine_similarity(A, B) = (A · B) / (‖A‖ × ‖B‖)**
 
-Where:
-- \( A \cdot B \) is the dot product of vectors **A** and **B**.
-- \( \|A\| \) and \( \|B\| \) are the Euclidean norms (magnitudes) of the vectors.
+Where:  
+- **A · B** is the **dot product** of vectors **A** and **B**.  
+- **‖A‖** and **‖B‖** are the **Euclidean norms** (magnitudes) of the vectors.  
 
 4. Cosine similarity measures the **angle between two vectors**, helping identify product similarity in **content-based filtering**.
 5. Recommends the top N most similar products based on the selected item.
@@ -36,6 +34,26 @@ This method recommends products based on user-item interactions, using Singular 
 1. Trains an SVD model on user-product ratings.
 2. Predicts missing ratings for products a user hasn’t interacted with.
 3. Sorts products based on predicted scores and recommends top N products.
+
+## Streamlit Application
+The Streamlit-based web application allows users to: 
+✔ Select User ID
+✔ Select Product Name
+✔ Choose Number of Recommendations
+✔ View recommended products in a grid layout with images
+
+### How to run the App in your system
+1. Download the Application folder in the repository
+2. Install the requirements
+3. In CLI, Give the command **streamlit run app.py**
+Note: Change the path of dataset according to your system
+
+## Requirements
+Python
+Scikit learn
+Surprise package
+pandas
+numpy
 
 Thank you for all the references and authors listed below:
 * https://bgiri-gcloud.medium.com/building-an-effective-recommendation-system-for-e-commerce-a-step-by-step-guide-bafae59862e1
