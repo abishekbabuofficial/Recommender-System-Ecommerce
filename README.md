@@ -37,9 +37,13 @@ This method recommends products based on user-item interactions, using Singular 
 
 ## Streamlit Application
 The Streamlit-based web application allows users to: 
+
 ✔ Select User ID
+
 ✔ Select Product Name
+
 ✔ Choose Number of Recommendations
+
 ✔ View recommended products in a grid layout with images
 
 ### How to run the App in your system
