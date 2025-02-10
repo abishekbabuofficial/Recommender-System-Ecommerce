@@ -1,4 +1,7 @@
 # 🛒🚀Recommender-System-Ecommerce
+
+## Try the demo from Hugging Face: https://huggingface.co/spaces/abishek-official/Recommender-system 
+
 ## Overview
 It is a real-time recommendation system for an e-commerce platform. The system provides product recommendations based on the user’s recent history and ratings using Hybrid Filtering, which leverages collaborative and content-based filtering.
 # Implementation
